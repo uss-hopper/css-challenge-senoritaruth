@@ -62,12 +62,8 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-div [class="instructions-wrapper"] {
-border: black;
-}
-
-div container > instructions-container {
-	background-color: blue;
+section {
+	border: black
 }
 
 
