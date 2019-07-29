@@ -65,6 +65,14 @@ html {
 	font-family: sans-serif;
 }
 
+body {
+	background-color: darkgray;
+}
+
+section {
+	background-color: white;
+}
+
 .instructions-wrapper {
 	border: thick solid;
 	padding: 1em;
