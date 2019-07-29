@@ -61,17 +61,23 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+html {
+	font-family: sans-serif;
+}
 
 .instructions-wrapper {
 	border: thick solid;
-	align-content: space-between;
 	padding: 1em;
 }
 
-img.instructions-wrapper {
-	width: 200px;
-	height: 300px;
-	border: thick solid;
+h2 {
+	font-weight: bold;
+}
+
+img {
+	width: 30%;
+	height: auto;
+	border: solid white;
 }
 
 .about-me {
@@ -80,15 +86,21 @@ img.instructions-wrapper {
 	padding: 1em;
 }
 
-h2.about-me {
-	justify-content: flex-end;
+table {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: left;
 }
 
-.table {
-	justify-content: center;
+th {
+	background-color: dimgray;
+	color: chartreuse;
 }
-.td {
-	background-color: dimgrey;
+
+td {
+	background-color: dimgray;
+	color: chartreuse;
 }
 
 .form-wrapper {
@@ -97,16 +109,20 @@ h2.about-me {
 	padding: 1em;
 }
 
-.button-text {
+button {
+	background-color: chartreuse;
 	color: black;
 }
 
-.button {
-	color: chartreuse;
-}
-
-.footer {
+footer {
 	background-color: black;
 	color: white;
 }
 
+h4 {
+	text-align: center;
+}
+
+.container {
+	padding: 2em;
+}
