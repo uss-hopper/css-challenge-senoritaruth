@@ -65,6 +65,7 @@ body { width: 100%;}
 .instructions-wrapper {
 	border: thick solid;
 	align-content: space-between;
+	padding: 1em;
 }
 
 img.instructions-wrapper {
@@ -76,6 +77,7 @@ img.instructions-wrapper {
 .about-me {
 	background-color: blue;
 	color: white;
+	padding: 1em;
 }
 
 h2.about-me {
@@ -92,7 +94,7 @@ h2.about-me {
 .form-wrapper {
 	background-color: darkgreen;
 	color: chartreuse;
-	margin: auto;
+	padding: 1em;
 }
 
 .button-text {
