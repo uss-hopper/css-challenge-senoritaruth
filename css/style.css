@@ -98,6 +98,11 @@ img {
 	padding: 1em;
 }
 
+span .about-me {
+	color: yellow;
+	text-decoration: italic;
+}
+
 table {
 	width: 90%;
 	margin-left: 5%;
