@@ -64,6 +64,7 @@ body { width: 100%;}
 
 .instructions-wrapper {
 	border: thick solid;
+	align-content: space-between;
 }
 
 img.instructions-wrapper {
@@ -77,8 +78,33 @@ img.instructions-wrapper {
 	color: white;
 }
 
+h2.about-me {
+	justify-content: flex-end;
+}
 
+.table {
+	justify-content: center;
+}
+.td {
+	background-color: dimgrey;
+}
 
+.form-wrapper {
+	background-color: darkgreen;
+	color: chartreuse;
+	margin: auto;
+}
 
+.button-text {
+	color: black;
+}
 
+.button-background {
+	color: chartreuse;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+}
 
