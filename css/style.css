@@ -62,8 +62,19 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-section {
-	border: black
+.instructions-wrapper {
+	border: thick solid;
+}
+
+img.instructions-wrapper {
+	width: 200px;
+	height: 300px;
+	border: thick solid;
+}
+
+.about-me {
+	background-color: blue;
+	color: white;
 }
 
 
